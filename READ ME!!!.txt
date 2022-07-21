@@ -1,0 +1,23 @@
+En esta carpeta estan contenidas 4 carpetas donde podemos encontrar:
+
+- Bulk GaAs(x)P(1-y-x)N(y): programa que calcula un mapa de gaps en función de x e y para un un bulk de GaAsPN, este programa podría ser modificado ligeramente para
+                             poder obtener también un mapa de un bulk GaInPN.
+ 
+- Gap promedio: este  programa crea un mapa gaps, x, y de la superred como si esta fuera un bulk pesando sus composiciones por su espesor relativo para GaAsP/GaPN, 
+               GaInP/GaPN y GaAsN/GaPN.
+
+- Kroning-Penney_DoS: programa que calcula el gap de una superred a partir de valores de composición, espesor relativo y valor de periodo introducidos por el usuario 
+                      (información extendida contenida en la propia carpeta).
+
+- Protogaps: programa que crea un mapa de protogaps para cntenido en x e y dados  para las superredes GaAsP/GaPN y GaInP/GaPN. La carpeta contiene las mismas funciones
+             necesarias para los calculos que en la carpeta Kronig-Penney_DOS, en la cual hay información de estas funciones. onsultar en esta carpeta de ser
+             necesario.
+
+Por otro lado tenemos dos programas realizados durante el desarrollo de Kroning-Penney_DoS y que pueden ser utilizados como programas independientes, tales programas
+son versiones intermedias de las funciones utilizadas posteriormente:
+
+- Effective_mass_analytical.cpp: programa que calcula la masa efectiva en la banda de conducción y de valencia para los cuaternarios GaAsPN y GaInPN a
+                                 elegir por el usuario. También podemos calcular la masa fectiva de un ternario.
+
+- test.cpp: programa para realizar pruebas, muy util para hacer comprobaciones y tests. Incluirlo en la carpeta de interes en caso de querer utilizarlo.  
+                              

@@ -1,0 +1,39 @@
+This folder contains all the files necessary to simulate the gap, protogap, effective masses in barrier and well, 
+barrier height, DoS (Density of states) and band structures of the superlattice:
+
+   -  GaAs(x)P(1-x)/GaP(1-x)N(x)
+   -  Ga(1-x)In(x)P/GaP(1-x)N(x)
+
+The software is subject to change in order to be able to simulate other superlattices by adding new parameters taking in consideration 
+its characteristics.
+
+The files contained are:
+  
+ - (main program) Kroning_Penney_Dos.cpp: program to simulate the the gap, protogap, effective masses in barrier and well, 
+                           barrier height, DoS (Density of states) and band structures of the superlattice for 
+                           a given x and y composition, relative thickness and period provided by the user.
+
+
+ - Effective_mass_analytical_function.cpp¨: this functión returns the effective mass for the following alloys : 
+                                             - GaAsP
+                                             - GaInP
+                                             - GaPN
+                                             - GaASN
+
+ - Calculator_Band_offset_General.cpp: this function return the value of the band offset VBO or CBO chsen by the user. This is nly avalaible for the 
+                                       following superlattices:
+                                          -  GaAs(x)P(1-x)/GaP(1-x)N(x)
+                                          -  Ga(1-x)In(x)P/GaP(1-x)N(x)
+
+ - vegard_law.cpp: this function apply the vegard law. 
+
+ - protogaps_function.cpp: this function compute the protogap for a superlattice what contain GaPN.
+
+ - band_anti-crossing.cpp: this funtión apply the band anti-crossing model.
+
+ - REL_func.cpp: this function calculate the relative thickness lattice match average to silicon. 
+
+ 
+
+
+ 
